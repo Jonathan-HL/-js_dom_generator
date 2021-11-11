@@ -1,0 +1,246 @@
+h1 {
+    text-align: center;
+}
+hr {
+    border-top: 5px solid rgb(0, 132, 255);
+}
+/* DEBUT DIV 1 */
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.W,.R,.G,.B,.btn1,.btn2,.btn3,.TOP,.TOP2,.TOP3 {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.W {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.R{
+    padding: 10px 15px 10px 15px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.G{
+    padding: 10px 15px 10px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.B{
+    padding: 10px 15px 10px 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.btn1{
+    padding: 5px 25px 5px 25px;
+    border: solid 3px black;
+    border-radius: 5px;
+}
+
+.btn2{
+    padding: 5px 25px 5px 25px;
+    border: dashed  3px black;
+    border-radius: 5px;
+
+}
+
+.btn3{
+    padding: 5px 25px 5px 25px;
+    border: dashed  1px black;
+    border-radius: 5px;
+
+}
+
+.TOP{
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: white;
+}
+
+.TOP2{
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    border:none;
+    border-top: solid 3px red;
+}
+
+.TOP3{
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    border:none;
+    border-top: solid 10px red;
+}
+/* Fin DIV 1 */
+
+/* DEBUT DIV 2 */
+.row2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;   
+}
+
+.btnbg,.input1,.input2,.input3,.input4,.input5{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.bg {
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    background-color: rgb(230, 228, 228);
+    margin: 0px 10px 0px 10px;
+}
+
+.btnbg{
+    padding: 8px 20px 8px 20px;
+    border-width: 1px;
+    border-color: rgb(195, 195, 195);
+    background-color: black;
+}
+
+.input1{
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    outline: none;
+    border-radius: 3px;
+    border: solid 3px black;
+}
+
+.input2 {
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    border-radius: 3px;
+    outline: none;
+    border: solid 1px gray;
+    border-top: solid 3px black;
+}
+
+.input3 {
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    border-radius: 3px;
+    outline: none;
+    border: solid 1px gray;
+    border-right: solid 3px black;
+}
+
+.input4 {
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    border-radius: 3px;
+    outline: none;
+    border: solid 1px gray;
+    border-bottom: solid 3px black;
+}
+
+.input5 {
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    border-radius: 3px;
+    outline: none;
+    border: solid 1px gray;
+    border-left: solid 3px black;
+}
+/* FIN DIV 2 */
+
+/* DEBUT DIV 3 */
+.row3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;   
+}
+
+.input11,.input22,.input33,.input44,.input55{
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.input11 {
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    outline: none;
+    border-radius: 6px;
+    border: solid 2px black;
+}
+
+.input22 {
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    border-radius: 6px;
+    outline: none;
+    border: solid 1px gray;
+    border-top: solid 2px black;
+    border-left: solid 2px black;
+}
+
+.input33 {
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    border-radius: 6px;
+    outline: none;
+    border: solid 1px gray;
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+}
+
+.input44 {
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    border-radius: 6px;
+    outline: none;
+    border: solid 1px gray;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+.input55 {
+    width: 50px;
+    padding: 6px 3px 6px 3px;
+    text-align: center;
+    border-radius: 6px;
+    outline: none;
+    border: solid 1px gray;
+    border-left: solid 2px black;
+    border-bottom: solid 2px black;
+}
+/* FIN DIV 3 */
+
+/* Tout ce passe ici */
+.rectangle {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+    height: 150px;
+    border: solid 3px black;
+    background-color: rgb(230, 228, 228);
+}
