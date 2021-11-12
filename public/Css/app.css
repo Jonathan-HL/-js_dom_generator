@@ -64,7 +64,7 @@ hr {
 
 .btn3{
     padding: 5px 25px 5px 25px;
-    border: dashed  1px black;
+    border: dotted  3px black;
     border-radius: 5px;
 
 }
@@ -74,6 +74,8 @@ hr {
     border-radius: 5px;
     border-width: 1px;
     border-color: white;
+    border: solid 2px black;
+    border-top: none;
 }
 
 .TOP2{
@@ -110,12 +112,7 @@ hr {
     margin: 0px 10px 0px 10px;
 }
 
-.btnbg{
-    padding: 8px 20px 8px 20px;
-    border-width: 1px;
-    border-color: rgb(195, 195, 195);
-    background-color: black;
-}
+
 
 .input1{
     width: 50px;
